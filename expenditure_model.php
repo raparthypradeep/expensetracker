@@ -34,7 +34,7 @@ class ExpenditureModel {
             $query .= " AND date BETWEEN :start_date AND :end_date";
         }
 
-        // Sorting by date in descending order (newest first)
+        // Sorting by date in descending order - newest first
         $query .= " ORDER BY date DESC";
 
         $stmt = $this->conn->prepare($query);
