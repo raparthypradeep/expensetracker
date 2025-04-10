@@ -1,5 +1,4 @@
 <?php
-
 require_once 'expenditure_model.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
