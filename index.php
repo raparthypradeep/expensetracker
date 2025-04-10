@@ -1,5 +1,4 @@
 <?php
-
 require_once 'expenditure_model.php';
 
 $expenseModel = new ExpenditureModel();
